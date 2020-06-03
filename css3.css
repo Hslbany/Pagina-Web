@@ -1,0 +1,275 @@
+body {    
+	
+	 /* background-color:#fdfdfdEstablece el color de fondo en gris claro */
+background-image: url("c.jpg");
+
+}
+
+
+
+
+
+
+/*  ELEMENTOS DE LA GALERIA DE IMAGENES */
+ 
+#galeria {
+  padding:0;
+  margin:10px auto 0 auto;
+  list-style-type:none;
+  height:350px;
+  width:1800px;
+  
+  }
+#galeria li {
+  width:100px;
+  height:350px;
+  float:left;
+  border-left:2px solid #eee;
+  }
+#galeria li img {
+  height:350px;
+  width:300px;
+
+  }
+#galeria li:hover {
+  background:#eee;
+  width:400px;
+  }
+#galeria li:hover img {
+  width:400px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#principal{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #fff;
+	margin: auto;
+
+}
+
+header{
+	width: 900px;
+	height: 100px;
+	border: 0px solid #fff;
+}
+
+#logo{
+	width: 300px;
+	height: 50px;
+	color:#fdfdfd;
+}
+	
+
+
+.titulo{
+	margin-top: 25px;
+	font-size: 30px;
+}
+
+.sub-titulo{
+	font-size: 14px;
+	margin-top: -20px;
+}
+
+.menu{
+	width: 560px;
+	height: 40px;
+	
+	float: right;
+	margin-top: 40px;
+	
+}
+
+.menu ul{}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+	color:#fdfdfd 
+}
+
+.menu ul li a:hover{
+	background: #fff;
+	color: #006699;
+	transition: background 1s, color 1s;
+}
+
+#slide{
+	margin-top: -5px;
+	width: 900px;
+	height: 250px;
+}
+
+#categorias{
+	width: 2000px;
+	height: auto; overflow: hidden;
+	
+	margin-top: 30px;
+}
+
+.uno{
+	width: 280px;
+	height: auto; overflow: hidden;
+	
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color:rgb(250, 244, 244);
+}
+
+.parrafo{
+	color:rgb(241, 236, 236);
+	text-align: justify;
+}
+.titulo-contacto{
+	color:rgb(241, 236, 236);
+	text-align: justify;
+}
+.dos{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.leer-mas{
+	text-decoration: none;
+	
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 10px;
+}
+
+.leer-mas:hover{
+	background: #006699;
+	color: #fff;
+	transition: background 1s, color 1s;
+}
+
+
+#info{
+	width: 900px;
+	height: auto; overflow: hidden;
+	
+	margin-top: 10px; color: 
+}
+
+#izq{
+	width: 585px;
+	height: auto; overflow: hidden;
+	
+	float: left;
+	padding: 5px; color: rgb(246, 243, 243);
+}
+
+.img{
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+
+
+#der{
+	width: 290px;
+	height: 300px;
+	
+	float: right;
+        color:rgb(250, 248, 248);
+}
+
+footer{
+	width: 900px;
+	height: 100px;
+	text-align: center;
+}
+
+#footer p{
+	width: 500px;
+}
+
+/*------------contacto------------------------*/
+#formulario{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	padding: 5px;
+	float: left
+}
+
+#mapa{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	padding: 5px;
+	float: right;
+}
+
+input[type="text"]{
+	border: 1px solid #c1c1c1; padding: 6px;
+	width: 97%;
+}
+
+textarea{
+	border: 1px solid #c1c1c1; padding: 6px;
+	width: 97%;
+}
+
+.enviar{
+	padding: 10px 20px;
+        background:#9999ff;
+        color:#eee;
+	font-size: 16px;
+}
+
+#form{}
+
+#datos{
+	margin-top: 30px;
+}
